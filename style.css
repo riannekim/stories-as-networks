@@ -1,0 +1,108 @@
+@font-face {
+    font-family: "EnceladusRegular";
+    src: url("https://cdn.glitch.com/d2d78d07-7f25-4237-b315-ead608393c3f%2FEnceladusRegular-d9xyE.otf?v=1614117699726"),
+      url("https://cdn.glitch.com/d2d78d07-7f25-4237-b315-ead608393c3f%2FEnceladusRegular-d9xyE.otf?v=1614117699726")
+        format("otf");
+  }
+  
+  @font-face {
+    font-family: "EnceladusDemibold";
+    src: url("https://cdn.glitch.com/d2d78d07-7f25-4237-b315-ead608393c3f%2FEnceladusDemibold-mL18a.otf?v=1614117697470"),
+      url("https://cdn.glitch.com/d2d78d07-7f25-4237-b315-ead608393c3f%2FEnceladusDemibold-mL18a.otf?v=1614117697470")
+        format("otf");
+  }
+  
+  @font-face {
+    font-family: "EnceladusBold";
+    src: url("https://cdn.glitch.com/d2d78d07-7f25-4237-b315-ead608393c3f%2FEnceladusBold-7BrER.otf?v=1614117697131"),
+      url("https://cdn.glitch.com/d2d78d07-7f25-4237-b315-ead608393c3f%2FEnceladusBold-7BrER.otf?v=1614117697131")
+        format("otf");
+  }
+  
+  @font-face {
+    font-family: "AreaKilometer";
+    src: url("https://cdn.glitch.com/d2d78d07-7f25-4237-b315-ead608393c3f%2FAreaKilometer50-gxmEq.otf?v=1614127546262"),
+      url("https://cdn.glitch.com/d2d78d07-7f25-4237-b315-ead608393c3f%2FAreaKilometer50-gxmEq.otf?v=1614127546262")
+        format("otf");
+  }
+  
+  body {
+    background: linear-gradient(270deg, #d8d0ff, #a1d6ca);
+    background-size: 400% 400%;
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+  }
+  
+  @-webkit-keyframes AnimationName {
+      0%{background-position:0% 50%}
+      50%{background-position:100% 50%}
+      100%{background-position:0% 50%}
+  }
+  @-moz-keyframes AnimationName {
+      0%{background-position:0% 50%}
+      50%{background-position:100% 50%}
+      100%{background-position:0% 50%}
+  }
+  @keyframes AnimationName {
+      0%{background-position:0% 50%}
+      50%{background-position:100% 50%}
+      100%{background-position:0% 50%}
+  }
+  
+  .punctuation {
+    color: white;
+    font-size: 5rem;
+    font-family: "EnceladusBold", sans-serif;
+    display: flex;
+    margin-left: 5rem;
+    margin-top: 3rem;
+    margin-bottom: 0;
+  }
+  
+  .challenge {
+    color: white;
+    font-size: 4rem;
+    font-family: "EnceladusDemibold", sans-serif;
+    font-style: italic;
+    display: flex;
+    margin-left: 29rem;
+    margin-top: -12rem;
+  }
+  
+  .rectangle {
+    /*   background: white; */
+    font-size: 3rem;
+    font-family: "AreaKilometer", sans-serif;
+    letter-spacing: 0.2em;
+    width: 45rem;
+    height: 12rem;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 52rem;
+    margin-top: 1rem;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes example {
+    from {
+      background-color: none;
+    }
+    to {
+      background-color: white;
+    }
+  }
+  
+  .rectangle a {
+    color: #a1d6ca;
+    text-decoration: none;
+  }
+  
+  .rectangle:hover a {
+    color: #d8d0ff;
+  }
+  

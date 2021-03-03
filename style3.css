@@ -1,0 +1,207 @@
+body {
+    background: linear-gradient(270deg, #d8d0ff, #a1d6ca);
+    background-size: 400% 400%;
+  
+      -webkit-animation: AnimationName 30s ease infinite;
+      -moz-animation: AnimationName 30s ease infinite;
+      animation: AnimationName 30s ease infinite;
+    margin: 0;
+  }
+  
+  @-webkit-keyframes AnimationName {
+      0%{background-position:0% 50%}
+      50%{background-position:100% 50%}
+      100%{background-position:0% 50%}
+  }
+  @-moz-keyframes AnimationName {
+      0%{background-position:0% 50%}
+      50%{background-position:100% 50%}
+      100%{background-position:0% 50%}
+  }
+  @keyframes AnimationName {
+      0%{background-position:0% 50%}
+      50%{background-position:100% 50%}
+      100%{background-position:0% 50%}
+  }
+  
+  .rectangle1 {
+    background: #64b6a4;
+    width: 45rem;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .instruction {
+    color: white;
+    font-size: 0.6rem;
+    font-family: 'AreaKilometer', sans-serif;
+    line-height: 3em;
+    letter-spacing: 1px;
+    display: relative;
+    position: absolute;
+    margin-top: 1rem;
+    margin-left: 7.8rem;
+  }
+  
+  .rectangle2 {
+    background: #57a191;
+    outline-style: solid;
+    outline-width: thin;
+    outline-color: white;
+    width: 40rem;
+    height: 87vh;
+    position: absolute;
+    margin-top: 7.65rem;
+    margin-left: 2.4rem;
+  }
+  
+  .paragraph {
+    color: white;
+    font-size: 1rem;
+    font-family: 'AreaKilometer', sans-serif;
+    line-height: 1.5rem;
+    letter-spacing: 1px;
+    width: 35rem;
+    height: 100%;
+    padding-top: 0.8rem;
+    padding-left: 2.5rem;
+    border: 0;
+    margin: 0;
+    padding-bottom: 0;
+    
+  }
+  
+  .bingo {
+    position: absolute;
+    margin-left: 58.4rem;
+    margin-top: -51.6rem;
+  }
+  
+  .comma {
+    position: absolute;
+    margin-left: 50.2rem;
+    margin-top: -13rem;
+  }
+  
+  .quotations {
+    position: absolute;
+    margin-left: 56rem;
+    margin-top: -13rem;
+  }
+  
+  .colon {
+    position: absolute;
+    margin-left: 61.8rem;
+    margin-top: -13rem;
+  }
+  
+  .question {
+    position: absolute;
+    margin-left: 67.6rem;
+    margin-top: -13rem;
+  }
+  
+  .apostrophe {
+    position: absolute;
+    margin-left: 73.4rem;
+    margin-top: -13rem;
+  }
+  
+  .period {
+    position: absolute;
+    margin-left: 79.2rem;
+    margin-top: -13rem;
+  }
+  
+  .dash {
+    position: absolute;
+    margin-left: 85rem;
+    margin-top: -13rem;
+  }
+  
+  .semicolon {
+    position: absolute;
+    margin-left: 90.8rem;
+    margin-top: -13rem;
+  }
+  
+  .exclamation {
+    position: absolute;
+    margin-left: 96.6rem;
+    margin-top: -13rem;
+  }
+  
+  .info {
+    background: white;
+    color: #a1d6ca;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 10px;
+    font-family: 'AreaKilometer', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100.5rem;
+    margin-top: -56rem;
+  }
+  
+  .instructions {
+    background-color: white;
+    display: none;
+    font-family: 'AreaKilometer', sans-serif;
+    font-size: 10px;
+    color: #d8d0ff;
+    width: 140px;
+    margin-left: 93.7rem;
+    margin-top: 2.5rem;
+    margin-bottom: 0;
+    outline-style: solid;
+    outline-width: thin;
+    outline-color: #d8d0ff;
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-top: 1px;
+    padding-bottom: 2px;
+    line-height: 15px;
+  }
+  
+  .info:hover + .instructions {
+    display: block;
+  }
+  
+  .answer {
+    background: white;
+    color: #a1d6ca;
+    width: 280px;
+    height: 80px;
+    font-size: 10px;
+    font-family: 'AreaKilometer', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    margin-top: 49.1rem;
+  }
+  
+  .possible {
+    background-color: #64b6a4;
+    display: none;
+    width: 30rem;
+    outline-style: solid;
+    outline-width: thick;
+    outline-color: #57a191;
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-top: 1px;
+    padding-bottom: 2px;
+    line-height: 15px;
+    vertical-align: top;
+    z-index: 1;
+    margin-left: 40rem;
+  }
+  
+  .answer:hover + .possible {
+    display: block;
+  }
+  

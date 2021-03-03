@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Hello!</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style3.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script3.js" defer></script>
+  </head>
+  <body>
+    <div class="rectangle1">
+      <div class="instruction">
+      <h1>
+        Read the following text to complete the bingo <br/>
+        with punctuations that are not interesting.
+      </h1>
+      </div>
+      <div class="rectangle2">
+        <div class="paragraph">
+          <p>
+            Of these the one but the first and the most the completely most
+            uninteresting is the question mark. The question mark is alright when it
+            is all alone when it is used as a brand on cattle or when it could be
+            used in decoration but connected with writing it is completely entirely
+            completely uninteresting. <br><br>
+            It is evident that is you ask a question you ask a question but anybody
+            who can read at all knows when a question is a question as it is written
+            in writing. Therefore I ask you therefore wherefore should one use the
+            question mark. Beside it does not in its form go with ordinary printing
+            and so it pleases neither the eye nor the ear and it is therefore like a
+            noun, just an unnecessary name of something. <br><br>
+            A question is a question, anybody can know that a question is a question
+            and so why add to it the question mark when it is already there when the
+            question is already there in the writing. Therefore I never could bring
+            myself to use a question mark, I always found it positively revolting,
+            and now very few do use it. <br><br>
+            Exclamation marks have the same difficulty and also quotation marks, they
+            are unnecessary, they are ugly, they spoil the line of the writing or the
+            printing and anyway what is the use, if you do not know that a question
+            is a question what is the use of its being a question.
+            The same thing is true of a quotation. When I first began writing I found
+            it simply impossible to use question marks and quotation marks and
+            exclamation points and now anybody sees it that way. Perhaps some day
+            they will see it some other way but not at any rate anybody can and does
+            see it that way. <br><br>
+            So there are the uninteresting things in punctuation uninteresting in a
+            way that is perfectly obvious, and so we do not have to go any farther
+            into that.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="bingo" ondrop="drop(event)" ondragover="allowDrop(event)">
+      <img src="https://cdn.glitch.com/b34ee74e-2bba-40a1-9875-ce324148d543%2Fbingo.jpg?v=1614683932926" width="550" height="550">
+    </div>
+    <div class="comma" draggable="true" ondragstart="drag(event)">
+      <img src="https://cdn.glitch.com/b34ee74e-2bba-40a1-9875-ce324148d543%2F%2C.png?v=1614723079993" width="70" height="70">
+    </div>
+    <div class="quotations" draggable="true" ondragstart="drag(event)">
+      <img src="https://cdn.glitch.com/b34ee74e-2bba-40a1-9875-ce324148d543%2F%22%22''.png?v=1614723079481" width="70" height="80">
+    </div>
+    <div class="colon" draggable="true" ondragstart="drag(event)">
+      <img src="https://cdn.glitch.com/b34ee74e-2bba-40a1-9875-ce324148d543%2Fcolon.png?v=1614723080241" width="70" height="70">
+    </div>
+    <div class="question" draggable="true" ondragstart="drag(event)">
+      <img src="https://cdn.glitch.com/b34ee74e-2bba-40a1-9875-ce324148d543%2F%3F.png?v=1614723079307" width="70" height="70">
+    </div>
+    <div class="apostrophe" draggable="true" ondragstart="drag(event)">
+      <img src="https://cdn.glitch.com/b34ee74e-2bba-40a1-9875-ce324148d543%2F'.png?v=1614723079611" width="70" height="70">
+    </div>
+    <div class="period" draggable="true" ondragstart="drag(event)">
+      <img src="https://cdn.glitch.com/b34ee74e-2bba-40a1-9875-ce324148d543%2Fperiod.png?v=1614723079694" width="70" height="70">
+    </div>
+    <div class="dash" draggable="true" ondragstart="drag(event)">
+      <img src="https://cdn.glitch.com/b34ee74e-2bba-40a1-9875-ce324148d543%2F-.png?v=1614723079180" width="70" height="70">
+    </div>
+    <div class="semicolon" draggable="true" ondragstart="drag(event)">
+      <img src="https://cdn.glitch.com/b34ee74e-2bba-40a1-9875-ce324148d543%2F%3B.png?v=1614723080481" width="70" height="70">
+    </div>
+    <div class="exclamation" draggable="true" ondragstart="drag(event)">
+      <img src="https://cdn.glitch.com/b34ee74e-2bba-40a1-9875-ce324148d543%2F!.png?v=1614723080224" width="70" height="70">
+    </div>
+    <div class="info">
+      <h1>
+        i
+      </h1>
+    </div>
+    <div class="instructions">
+      <h3>
+       Instructions
+      </h3>
+      <p>
+        1. Read the text on the left. <br>
+        2. Drag and drop the "not interesting" punctuations (as said in the text) in the circular buttons into the bingo table. <br>
+        3. In order to get a bingo, the "not interesting" punctuations have to align vertically, horizontally, or diagonally. <br>
+        4. Place all the other punctuations in any of the remaining bingo spaces. <br>
+        5. Press the answer key button to check if your answer is correct and to take a look at all possible answers. <br>
+        6. Enjoy! <br>
+      </p>
+    </div>
+    <div class="answer">
+      <h1>
+        ANSWER KEY
+      </h1>
+    </div>
+    <div class="possible">
+      <div class="bingo1">
+        <img src="https://cdn.glitch.com/b34ee74e-2bba-40a1-9875-ce324148d543%2Fbingo1.jpg?v=1614715269410" width="100" height="100">
+      </div>
+      <div class="bingo2">
+        <img src="https://cdn.glitch.com/b34ee74e-2bba-40a1-9875-ce324148d543%2Fbingo5.jpg?v=1614715271162" width="100" height="100">
+      </div>
+      <div class="bingo3">
+        <img src="https://cdn.glitch.com/b34ee74e-2bba-40a1-9875-ce324148d543%2Fbingo6.jpg?v=1614715271399" width="100" height="100">
+      </div>
+      <div class="bingo4">
+        <img src="https://cdn.glitch.com/b34ee74e-2bba-40a1-9875-ce324148d543%2Fbingo7.jpg?v=1614715271338" width="100" height="100">
+      </div>
+      <div class="bingo5">
+        <img src="https://cdn.glitch.com/b34ee74e-2bba-40a1-9875-ce324148d543%2Fbingo8.jpg?v=1614715271319" width="100" height="100">
+      </div>
+      <div class="bingo6">
+        <img src="https://cdn.glitch.com/b34ee74e-2bba-40a1-9875-ce324148d543%2Fbingo9.jpg?v=1614715271453" width="100" height="100">
+      </div>
+      <div class="bingo7">
+        <img src="https://cdn.glitch.com/b34ee74e-2bba-40a1-9875-ce324148d543%2Fbingo10.jpg?v=1614715271629" width="100" height="100">
+      </div>
+      <div class="bingo8">
+        <img src="https://cdn.glitch.com/b34ee74e-2bba-40a1-9875-ce324148d543%2Fbingo11.jpg?v=1614715271860" width="100" height="100">
+      </div>
+      <div class="bingo9">
+        <img src="https://cdn.glitch.com/b34ee74e-2bba-40a1-9875-ce324148d543%2Fbingo12.jpg?v=1614715271899" width="100" height="100">
+      </div>
+      <div class="bingo10">
+        <img src="https://cdn.glitch.com/b34ee74e-2bba-40a1-9875-ce324148d543%2Fbingo13.jpg?v=1614715271606" width="100" height="100">
+      </div>
+      <div class="bingo11">
+        <img src="https://cdn.glitch.com/b34ee74e-2bba-40a1-9875-ce324148d543%2Fbingo14.jpg?v=1614715270471" width="100" height="100">
+      </div>
+      <div class="bingo12">
+        <img src="https://cdn.glitch.com/b34ee74e-2bba-40a1-9875-ce324148d543%2Fbingo15.jpg?v=1614715272259" width="100" height="100">
+      </div>
+      <div class="bingo13">
+        <img src="https://cdn.glitch.com/b34ee74e-2bba-40a1-9875-ce324148d543%2Fbingo16.jpg?v=1614715272118" width="100" height="100">
+      </div>
+      <div class="bingo14">
+        <img src="https://cdn.glitch.com/b34ee74e-2bba-40a1-9875-ce324148d543%2Fbingo17.jpg?v=1614715272329" width="100" height="100">
+      </div>
+      <div class="bingo15">
+        <img src="https://cdn.glitch.com/b34ee74e-2bba-40a1-9875-ce324148d543%2Fbingo18.jpg?v=1614715269247" width="100" height="100">
+      </div>
+      <div class="bingo16">
+        <img src="https://cdn.glitch.com/b34ee74e-2bba-40a1-9875-ce324148d543%2Fbingo19.jpg?v=1614715269204" width="100" height="100">
+      </div>
+      <div class="bingo17">
+        <img src="https://cdn.glitch.com/b34ee74e-2bba-40a1-9875-ce324148d543%2Fbingo20.jpg?v=1614715269532" width="100" height="100">
+      </div>
+      <div class="bingo18">
+        <img src="https://cdn.glitch.com/b34ee74e-2bba-40a1-9875-ce324148d543%2Fbingo21.jpg?v=1614715270236" width="100" height="100">
+      </div>
+      <div class="bingo19">
+        <img src="https://cdn.glitch.com/b34ee74e-2bba-40a1-9875-ce324148d543%2Fbingo2.jpg?v=1614715270331" width="100" height="100">
+      </div>
+      <div class="bingo20">
+        <img src="https://cdn.glitch.com/b34ee74e-2bba-40a1-9875-ce324148d543%2Fbingo3.jpg?v=1614715269338" width="100" height="100">
+      </div>
+      <div class="bingo21">
+        <img src="https://cdn.glitch.com/b34ee74e-2bba-40a1-9875-ce324148d543%2Fbingo4.jpg?v=1614715269457" width="100" height="100">
+      </div>
+      <div class="bingo22">
+        <img src="https://cdn.glitch.com/b34ee74e-2bba-40a1-9875-ce324148d543%2Fbingo22.jpg?v=1614715270214" width="100" height="100">
+      </div>
+      <div class="bingo23">
+        <img src="https://cdn.glitch.com/b34ee74e-2bba-40a1-9875-ce324148d543%2Fbingo23.jpg?v=1614715270532" width="100" height="100">
+      </div>
+      <div class="bingo24">
+        <img src="https://cdn.glitch.com/b34ee74e-2bba-40a1-9875-ce324148d543%2Fbingo24.jpg?v=1614715270585" width="100" height="100">
+      </div>
+    </div>
+  </body>
+</html>
